@@ -1,0 +1,49 @@
+/*
+Error: Invalid CSS after "...in-width:480px)": expected "{", was "){"
+        on line 2237 of home.scss
+
+2232: 
+2233: 
+2234: 
+2235: 
+2236: 
+2237: @media only screen and (min-width:480px)){
+2238: 
+2239: .slide_logo{
+2240: float:none;
+2241: }
+2242: .slide_logo_inner{
+
+Backtrace:
+home.scss:2237
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:1167:in `expected'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:1101:in `expected'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:1096:in `tok!'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:641:in `block'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:401:in `media_directive'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:219:in `special_directive'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:194:in `directive'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:660:in `block_child'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:653:in `block_contents'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:117:in `stylesheet'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/engine.rb:393:in `_to_tree'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:328:in `block in watch'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/vendor/listen/lib/listen/listener.rb:252:in `call'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Program Files/Heroku/ruby-1.9.2/lib/ruby/gems/1.9.1/gems/sass-3.4.10/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...in-width:480px)\": expected \"{\", was \"){\"\A         on line 2237 of home.scss\A \A 2232: \A 2233: \A 2234: \A 2235: \A 2236: \A 2237: @media only screen and (min-width:480px)){\A 2238: \A 2239: .slide_logo{\A 2240: float:none;\A 2241: }\A 2242: .slide_logo_inner{"; }
